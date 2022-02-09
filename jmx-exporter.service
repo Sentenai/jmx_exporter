@@ -1,5 +1,7 @@
 [Unit]
 Description=JMX Prometheus Exporter
+Wants=riak.service
+After=riak.service
 Wants=network-online.target
 After=network-online.target
 
