@@ -7,7 +7,6 @@ After=network-online.target
 
 [Service]
 User=exporter
-Type=simple
 ExecStart=/var/lib/prometheus/jmx_exporter
 
 [Install]
